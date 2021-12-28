@@ -6,6 +6,7 @@ def convert(data,name,json_path):
         # Get required data
         ct=data['marks']
         print(len(ct))
+        
         for j in range(len(ct)):
             type=ct[j]['type']
             bbox=ct[j]['bandbox']
